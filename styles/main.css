@@ -99,7 +99,39 @@ body {
 }
 
 .main-content {
+  display: flex;
   padding: 40px;
   flex: 1;
   color: #fff;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  width: 300px;
+  height: 180px;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-subtitle {
+  color: #aaa !important;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+.card-link {
+  color: #D4AF37;
+}
+
+.card-link:hover {
+  color: #f1c40f;
 }
