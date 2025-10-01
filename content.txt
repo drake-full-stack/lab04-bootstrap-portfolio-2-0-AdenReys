@@ -1,0 +1,21 @@
+    <!-- Sidebar navigation with image -->
+    <div class="nav">
+        <img src="assets/Profile_Picture.jpg" alt="Profile Image" class="sidebar-image" />
+        <a class="active" href="index.html">Home</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="projects.html">Projects</a>
+    </div>
+    <div style="margin-left:220px; padding: 40px 20px;">
+        <h1>Reys Aden</h1>
+        <p>I am pursuing a B.S. in Computer Science with a minor in Mathematics at Drake University, concentrating in Software Engineering.
+           I have experience in software development, machine learning, and data-driven problem solving through internships, research, and personal projects. My work includes building applications that improve workflows, training computer vision models for real-world challenges, and applying mathematical modeling to practical problems.
+           I enjoy learning new technologies, applying them to impactful projects, and contributing to teams that value innovation and collaboration.</p>
+    <h2>Interests</h2>
+    <ul>
+        <li>Card Games (Yu-Gi-Oh!, Pokémon, One Piece)</li>
+        <li>Light Novels</li>
+        <li>Role-Playing Games (RPGs)</li>
+        <li>Soccer</li>
+    </ul>
+    </div>
+    

@@ -4,29 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
-    <title>Your Name - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Reys Aden Portfolio</title>
 </head>
 <body>
-    <!-- Sidebar navigation with image -->
-    <div class="nav">
-        <img src="assets/Profile_Picture.jpg" alt="Profile Image" class="sidebar-image" />
-        <a class="active" href="index.html">Home</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="projects.html">Projects</a>
+    <!--SideBar-->
+<div class="sidebar">
+  <img src="assets/Profile_Picture.jpg" alt="Profile Image" class="sidebar-image" />
+  <h2 class="sidebar-name">Aden Reys</h2>
+  <p class="sidebar-title">Computer Science Student</p>
+  <p class="email-title">email@example.com</p>
+
+  <div class="sidebar-info">
+    <p><strong>Email:</strong> Email.com</p>
+    <p><strong>Location:</strong> Des Moines, IA</p>
+  </div>
+
+  <div class="sidebar-socials">
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+    <a href="#"><i class="bi bi-github"></i></a>
+  </div>
+</div>
+<div class="right-side-content">
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-top px-3">
+    <div class="container-fluid">
+
+            <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hobbies.html">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+      </ul>
     </div>
-    <div style="margin-left:220px; padding: 40px 20px;">
-        <h1>Reys Aden</h1>
-        <p>I am pursuing a B.S. in Computer Science with a minor in Mathematics at Drake University, concentrating in Software Engineering.
-           I have experience in software development, machine learning, and data-driven problem solving through internships, research, and personal projects. My work includes building applications that improve workflows, training computer vision models for real-world challenges, and applying mathematical modeling to practical problems.
-           I enjoy learning new technologies, applying them to impactful projects, and contributing to teams that value innovation and collaboration.</p>
-    <h2>Interests</h2>
-    <ul>
-        <li>Card Games (Yu-Gi-Oh!, Pokémon, One Piece)</li>
-        <li>Light Novels</li>
-        <li>Role-Playing Games (RPGs)</li>
-        <li>Soccer</li>
-    </ul>
-    </div>
-    
+  </nav>
+    <!-- Main Content Area -->
+  <div class="main-content">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is a simple portfolio layout using Bootstrap and custom CSS.</p>
+  </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </body>
 </html>
