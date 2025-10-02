@@ -135,3 +135,38 @@ body {
 .card-link:hover {
   color: #f1c40f;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 10px 20px !important;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
